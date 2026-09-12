@@ -1,0 +1,114 @@
+{
+  "platform": "DataTrustOS Enterprise Governance System",
+  "version": "1.0.0",
+  "schema_format_version": "2026.1",
+  "total_profiled_records": 648500000,
+  "total_registered_datasets": 12,
+  "total_mapped_columns": 348,
+  "domains": [
+    {
+      "domain_name": "FINANCE",
+      "datasets": [
+        {
+          "dataset_id": "ds-fin-001",
+          "name": "Global Financial Ledger Transactions",
+          "slug": "global-financial-ledger-transactions",
+          "data_source": "Snowflake Data Warehouse",
+          "environment": "PRODUCTION",
+          "row_count": 184500000,
+          "size_bytes": 14200000000,
+          "quality_score": 99.4,
+          "risk_score": 8.5,
+          "risk_level": "LOW",
+          "sensitivity_level": "CONFIDENTIAL",
+          "is_certified": true,
+          "tables": [
+            {
+              "table_name": "double_entry_ledger_entries",
+              "row_count": 120000000,
+              "columns": [
+                { "name": "entry_id", "data_type": "UUID", "is_primary_key": true, "sensitivity": "INTERNAL" },
+                { "name": "debit_account_id", "data_type": "VARCHAR(64)", "is_primary_key": false, "sensitivity": "INTERNAL" },
+                { "name": "credit_account_id", "data_type": "VARCHAR(64)", "is_primary_key": false, "sensitivity": "INTERNAL" },
+                { "name": "amount_usd", "data_type": "DECIMAL(18,4)", "is_primary_key": false, "sensitivity": "CONFIDENTIAL" },
+                { "name": "transaction_timestamp", "data_type": "TIMESTAMP_NTZ", "is_primary_key": false, "sensitivity": "INTERNAL" }
+              ]
+            },
+            {
+              "table_name": "settlement_recon_logs",
+              "row_count": 64500000,
+              "columns": [
+                { "name": "recon_id", "data_type": "UUID", "is_primary_key": true, "sensitivity": "INTERNAL" },
+                { "name": "swift_bic_code", "data_type": "VARCHAR(11)", "is_primary_key": false, "sensitivity": "CONFIDENTIAL" },
+                { "name": "status", "data_type": "VARCHAR(20)", "is_primary_key": false, "sensitivity": "INTERNAL" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain_name": "CUSTOMER",
+      "datasets": [
+        {
+          "dataset_id": "ds-cust-002",
+          "name": "Customer Master PII & KYC Registry",
+          "slug": "customer-master-pii-kyc-registry",
+          "data_source": "PostgreSQL Core DB",
+          "environment": "PRODUCTION",
+          "row_count": 242000000,
+          "size_bytes": 18800000000,
+          "quality_score": 94.1,
+          "risk_score": 72.0,
+          "risk_level": "HIGH",
+          "sensitivity_level": "RESTRICTED",
+          "is_certified": true,
+          "tables": [
+            {
+              "table_name": "customer_profiles_master",
+              "row_count": 142000000,
+              "columns": [
+                { "name": "customer_id", "data_type": "UUID", "is_primary_key": true, "sensitivity": "INTERNAL" },
+                { "name": "legal_full_name", "data_type": "VARCHAR(255)", "is_primary_key": false, "sensitivity": "CRITICAL_PII" },
+                { "name": "ssn_hash", "data_type": "VARCHAR(64)", "is_primary_key": false, "sensitivity": "CRITICAL_PII" },
+                { "name": "email_address", "data_type": "VARCHAR(255)", "is_primary_key": false, "sensitivity": "CRITICAL_PII" },
+                { "name": "phone_number", "data_type": "VARCHAR(32)", "is_primary_key": false, "sensitivity": "CRITICAL_PII" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain_name": "ENGINEERING",
+      "datasets": [
+        {
+          "dataset_id": "ds-tele-003",
+          "name": "Edge IoT Telemetry Stream",
+          "slug": "edge-iot-telemetry-stream",
+          "data_source": "Apache Kafka Cluster",
+          "environment": "PRODUCTION",
+          "row_count": 222000000,
+          "size_bytes": 28900000000,
+          "quality_score": 91.8,
+          "risk_score": 24.0,
+          "risk_level": "MEDIUM",
+          "sensitivity_level": "INTERNAL",
+          "is_certified": false,
+          "tables": [
+            {
+              "table_name": "sensor_telemetry_events",
+              "row_count": 222000000,
+              "columns": [
+                { "name": "event_id", "data_type": "BIGINT", "is_primary_key": true, "sensitivity": "INTERNAL" },
+                { "name": "node_id", "data_type": "VARCHAR(64)", "is_primary_key": false, "sensitivity": "INTERNAL" },
+                { "name": "cpu_load_pct", "data_type": "FLOAT", "is_primary_key": false, "sensitivity": "INTERNAL" },
+                { "name": "latency_ms", "data_type": "FLOAT", "is_primary_key": false, "sensitivity": "INTERNAL" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
