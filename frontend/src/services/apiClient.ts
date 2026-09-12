@@ -28,6 +28,22 @@ function normalizeDataset(raw: any): Dataset {
   };
 }
 
+async function parseJsonResponse(res: Response): Promise<any> {
+  if (!res.ok) {
+    throw new Error(`HTTP error status ${res.status}`);
+  }
+  const contentType = res.headers.get('content-type');
+  const text = await res.text();
+  if (text.trim().startsWith('<') || (contentType && !contentType.includes('application/json'))) {
+    throw new Error(`Expected JSON but received HTML response from server`);
+  }
+  try {
+    return JSON.parse(text);
+  } catch (e) {
+    throw new Error(`Failed to parse JSON response: ${(e as Error).message}`);
+  }
+}
+
 export class DataTrustApiClient {
   /** Fetch all datasets from backend database, fallback to seeded models if starting */
   static async getDatasets(domain?: string): Promise<Dataset[]> {
@@ -36,8 +52,7 @@ export class DataTrustApiClient {
         ? `${API_BASE_URL}/catalog/datasets?domain=${encodeURIComponent(domain)}`
         : `${API_BASE_URL}/catalog/datasets`;
       const res = await fetch(url);
-      if (!res.ok) throw new Error('API server returned error status');
-      const data = await res.json();
+      const data = await parseJsonResponse(res);
       if (Array.isArray(data) && data.length > 0) {
         return data.map(normalizeDataset);
       }
@@ -54,8 +69,7 @@ export class DataTrustApiClient {
       const res = await fetch(`${API_BASE_URL}/catalog/datasets?name=${encodeURIComponent(name)}&domain=${encodeURIComponent(domain)}&data_source=${encodeURIComponent(dataSource)}&description=${encodeURIComponent(description)}`, {
         method: 'POST',
       });
-      if (!res.ok) throw new Error('Failed to register dataset');
-      const data = await res.json();
+      const data = await parseJsonResponse(res);
       return normalizeDataset(data);
     } catch (err) {
       console.warn('API register dataset error:', err);
@@ -68,8 +82,7 @@ export class DataTrustApiClient {
     try {
       const url = datasetId ? `${API_BASE_URL}/quality/rules?dataset_id=${datasetId}` : `${API_BASE_URL}/quality/rules`;
       const res = await fetch(url);
-      if (!res.ok) throw new Error('API error fetching rules');
-      const data = await res.json();
+      const data = await parseJsonResponse(res);
       return data && data.length > 0 ? data.map((r: any) => ({
         id: r.id,
         name: r.name,
@@ -96,7 +109,7 @@ export class DataTrustApiClient {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ values, contamination }),
       });
-      return await res.json();
+      return await parseJsonResponse(res);
     } catch (err) {
       return { status: 'FALLBACK_LOCAL', anomaliesCount: 1, anomalyIndices: [4] };
     }
