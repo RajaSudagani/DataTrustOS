@@ -55,118 +55,118 @@ export const QualityPage: React.FC = () => {
   };
 
   return (
-    <div className="w-full p-6 space-y-6 animate-in fade-in duration-300">
+    <div className="w-full p-8 space-y-8 animate-in fade-in duration-300">
       
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
         <div>
-          <h1 className="text-xl font-bold text-white tracking-tight flex items-center space-x-2.5">
-            <ShieldCheck className="w-5 h-5 text-emerald-400" />
+          <h1 className="text-2xl font-bold text-white tracking-tight flex items-center space-x-3">
+            <ShieldCheck className="w-6 h-6 text-emerald-400" />
             <span>Data Quality Engine & Assertion Hub</span>
-            <span className="ml-2 px-2 py-0.5 bg-emerald-950 text-emerald-400 border border-emerald-800 rounded text-[10px] font-mono flex items-center space-x-1">
-              <Activity className="w-3 h-3 animate-pulse" />
+            <span className="ml-3 px-3 py-1 bg-emerald-950 text-emerald-400 border border-emerald-800 rounded-lg text-xs font-mono font-bold flex items-center space-x-1.5">
+              <Activity className="w-3.5 h-3.5 animate-pulse" />
               <span>FastAPI Quality Engine</span>
             </span>
           </h1>
-          <p className="text-xs text-zinc-400 mt-1">
+          <p className="text-sm text-zinc-300 mt-1.5">
             Configure declarative data quality rules, execute statistical assertions, and monitor automated health scorecards.
           </p>
         </div>
 
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-3.5">
           <button
             onClick={() => refetch()}
-            className="p-2 bg-zinc-900 hover:bg-zinc-800 text-zinc-300 rounded-lg border border-zinc-800 transition-colors"
+            className="p-2.5 bg-zinc-900 hover:bg-zinc-800 text-zinc-200 rounded-xl border border-zinc-800 transition-colors"
             title="Refresh Quality Rules"
           >
-            <RefreshCw className={`w-4 h-4 ${isLoading ? 'animate-spin' : ''}`} />
+            <RefreshCw className={`w-4.5 h-4.5 ${isLoading ? 'animate-spin' : ''}`} />
           </button>
           <button
             onClick={() => setIsModalOpen(true)}
-            className="px-4 py-2 bg-white hover:bg-zinc-200 text-black text-xs font-bold rounded-lg transition-all flex items-center space-x-2 shadow"
+            className="px-5 py-2.5 bg-white hover:bg-zinc-200 text-black text-sm font-extrabold rounded-xl transition-all flex items-center space-x-2.5 shadow-lg"
           >
-            <Plus className="w-4 h-4" />
+            <Plus className="w-4.5 h-4.5" />
             <span>Build Quality Rule</span>
           </button>
         </div>
       </div>
 
       {/* Scorecard Overview */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
-          <div className="text-xs font-medium text-zinc-400">Quality Health Score</div>
-          <div className="text-3xl font-bold text-emerald-400 mt-2">99.4%</div>
-          <div className="text-[11px] text-zinc-500 mt-1">Target SLA: 95.0% Passed</div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="bg-zinc-900 p-6 rounded-2xl border border-zinc-800 space-y-1">
+          <div className="text-sm font-semibold text-zinc-300">Quality Health Score</div>
+          <div className="text-4xl font-bold text-emerald-400 mt-2">99.4%</div>
+          <div className="text-xs text-zinc-400 mt-1">Target SLA: 95.0% Passed</div>
         </div>
 
-        <div className="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
-          <div className="text-xs font-medium text-zinc-400">Active Configured Rules</div>
-          <div className="text-3xl font-bold text-white mt-2">{rules.length}</div>
-          <div className="text-[11px] text-zinc-500 mt-1">Synchronized with FastAPI DB</div>
+        <div className="bg-zinc-900 p-6 rounded-2xl border border-zinc-800 space-y-1">
+          <div className="text-sm font-semibold text-zinc-300">Active Configured Rules</div>
+          <div className="text-4xl font-bold text-white mt-2">{rules.length}</div>
+          <div className="text-xs text-zinc-400 mt-1">Synchronized with FastAPI DB</div>
         </div>
 
-        <div className="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
-          <div className="text-xs font-medium text-zinc-400">Open Quality Incidents</div>
-          <div className="text-3xl font-bold text-amber-400 mt-2">{MOCK_QUALITY_ISSUES.length}</div>
-          <div className="text-[11px] text-zinc-500 mt-1">Requires Steward Review</div>
+        <div className="bg-zinc-900 p-6 rounded-2xl border border-zinc-800 space-y-1">
+          <div className="text-sm font-semibold text-zinc-300">Open Quality Incidents</div>
+          <div className="text-4xl font-bold text-amber-400 mt-2">{MOCK_QUALITY_ISSUES.length}</div>
+          <div className="text-xs text-zinc-400 mt-1">Requires Steward Review</div>
         </div>
       </div>
 
       {/* Rules Table */}
-      <div className="bg-zinc-900 rounded-xl border border-zinc-800 overflow-hidden space-y-4">
-        <div className="p-4 border-b border-zinc-800 bg-zinc-950 flex items-center justify-between">
-          <h3 className="text-sm font-bold text-white flex items-center space-x-2">
-            <Layers className="w-4 h-4 text-white" />
+      <div className="bg-zinc-900 rounded-2xl border border-zinc-800 overflow-hidden space-y-4">
+        <div className="p-5 border-b border-zinc-800 bg-zinc-950 flex items-center justify-between">
+          <h3 className="text-base font-bold text-white flex items-center space-x-2.5">
+            <Layers className="w-5 h-5 text-white" />
             <span>Configured Quality Rules & Assertions</span>
           </h3>
-          <span className="text-xs text-zinc-400">{rules.length} rules active</span>
+          <span className="text-xs text-zinc-300 font-bold">{rules.length} rules active</span>
         </div>
 
         {isLoading ? (
-          <div className="p-12 text-center text-xs text-zinc-400 flex items-center justify-center space-x-2">
-            <RefreshCw className="w-4 h-4 animate-spin text-white" />
+          <div className="p-16 text-center text-sm text-zinc-300 flex items-center justify-center space-x-3">
+            <RefreshCw className="w-5 h-5 animate-spin text-white" />
             <span>Fetching quality assertion rules from backend API...</span>
           </div>
         ) : (
-          <table className="w-full text-left text-xs">
+          <table className="w-full text-left text-sm">
             <thead>
-              <tr className="border-b border-zinc-800 text-[10px] text-zinc-400 bg-zinc-950 uppercase">
-                <th className="p-4">Rule Name</th>
-                <th className="p-4">Dataset & Column</th>
-                <th className="p-4">Type</th>
-                <th className="p-4">Severity</th>
-                <th className="p-4">Last Status</th>
-                <th className="p-4 text-right">Actions</th>
+              <tr className="border-b border-zinc-800 text-xs font-extrabold text-zinc-400 bg-zinc-950 uppercase tracking-wider">
+                <th className="p-5">Rule Name</th>
+                <th className="p-5">Dataset & Column</th>
+                <th className="p-5">Type</th>
+                <th className="p-5">Severity</th>
+                <th className="p-5">Last Status</th>
+                <th className="p-5 text-right">Actions</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-zinc-800">
               {rules.map(rule => (
-                <tr key={rule.id} className="hover:bg-zinc-800/40">
-                  <td className="p-4 font-bold text-white">{rule.name}</td>
-                  <td className="p-4">
-                    <div className="text-zinc-300">{rule.datasetName || 'Global Financial Ledger'}</div>
-                    <div className="text-[10px] font-mono text-zinc-400">{rule.columnName || 'All Columns'}</div>
+                <tr key={rule.id} className="hover:bg-zinc-800/40 transition-colors">
+                  <td className="p-5 font-bold text-white text-base">{rule.name}</td>
+                  <td className="p-5">
+                    <div className="text-zinc-200 font-semibold">{rule.datasetName || 'Global Financial Ledger'}</div>
+                    <div className="text-xs font-mono text-zinc-400 mt-0.5">{rule.columnName || 'All Columns'}</div>
                   </td>
-                  <td className="p-4">
-                    <span className="px-2 py-0.5 rounded bg-zinc-950 text-zinc-300 border border-zinc-800 font-mono text-[10px]">
+                  <td className="p-5">
+                    <span className="px-3 py-1 rounded-lg bg-zinc-950 text-zinc-200 border border-zinc-800 font-mono text-xs font-semibold">
                       {rule.ruleType}
                     </span>
                   </td>
-                  <td className="p-4">
-                    <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
+                  <td className="p-5">
+                    <span className={`px-2.5 py-1 rounded-lg text-xs font-bold ${
                       rule.severity === 'CRITICAL' ? 'bg-rose-950/80 text-rose-300 border border-rose-800' : 'bg-amber-950/80 text-amber-300 border border-amber-800'
                     }`}>
                       {rule.severity}
                     </span>
                   </td>
-                  <td className="p-4">
-                    <span className="flex items-center space-x-1 text-emerald-400 font-semibold text-xs">
-                      <CheckCircle2 className="w-3.5 h-3.5" />
+                  <td className="p-5">
+                    <span className="flex items-center space-x-1.5 text-emerald-400 font-bold text-sm">
+                      <CheckCircle2 className="w-4 h-4" />
                       <span>{rule.lastExecutionStatus || 'PASSED'}</span>
                     </span>
                   </td>
-                  <td className="p-4 text-right">
-                    <button className="px-3 py-1 bg-zinc-800 hover:bg-zinc-700 text-white border border-zinc-700 rounded text-xs font-semibold transition-colors">
+                  <td className="p-5 text-right">
+                    <button className="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 text-white border border-zinc-700 rounded-xl text-xs font-bold transition-colors shadow-sm">
                       Run Now
                     </button>
                   </td>

@@ -64,20 +64,20 @@ export const CatalogPage: React.FC = () => {
   };
 
   return (
-    <div className="w-full p-6 space-y-6 animate-in fade-in duration-300">
+    <div className="w-full p-8 space-y-8 animate-in fade-in duration-300">
       
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
         <div>
-          <h1 className="text-xl font-bold text-white tracking-tight flex items-center space-x-2.5">
-            <Database className="w-5 h-5 text-white" />
+          <h1 className="text-2xl font-bold text-white tracking-tight flex items-center space-x-3">
+            <Database className="w-6 h-6 text-white" />
             <span>Enterprise Data Catalog</span>
-            <span className="ml-2 px-2 py-0.5 bg-emerald-950 text-emerald-400 border border-emerald-800 rounded text-[10px] font-mono flex items-center space-x-1">
-              <Activity className="w-3 h-3 animate-pulse" />
+            <span className="ml-3 px-3 py-1 bg-emerald-950 text-emerald-400 border border-emerald-800 rounded-lg text-xs font-mono font-bold flex items-center space-x-1.5">
+              <Activity className="w-3.5 h-3.5 animate-pulse" />
               <span>FastAPI Backend Live</span>
             </span>
           </h1>
-          <p className="text-xs text-zinc-400 mt-1">
+          <p className="text-sm text-zinc-300 mt-1.5">
             Search, discover, and inspect schema structures, ownership metadata, and privacy tags across registered database tables.
           </p>
         </div>
@@ -85,44 +85,44 @@ export const CatalogPage: React.FC = () => {
         <div className="flex items-center space-x-3">
           <button
             onClick={() => refetch()}
-            className="p-2 bg-zinc-900 hover:bg-zinc-800 text-zinc-300 rounded-lg border border-zinc-800 transition-colors"
+            className="p-2.5 bg-zinc-900 hover:bg-zinc-800 text-zinc-200 rounded-xl border border-zinc-800 transition-colors"
             title="Refresh DB State"
           >
-            <RefreshCw className={`w-4 h-4 ${isLoading ? 'animate-spin' : ''}`} />
+            <RefreshCw className={`w-4.5 h-4.5 ${isLoading ? 'animate-spin' : ''}`} />
           </button>
           <button
             onClick={() => setIsRegisterOpen(true)}
-            className="px-4 py-2 bg-white hover:bg-zinc-200 text-black text-xs font-bold rounded-lg transition-all flex items-center space-x-2"
+            className="px-5 py-2.5 bg-white hover:bg-zinc-200 text-black text-sm font-extrabold rounded-xl transition-all flex items-center space-x-2.5 shadow-lg"
           >
-            <Plus className="w-4 h-4" />
+            <Plus className="w-4.5 h-4.5" />
             <span>Register New Dataset</span>
           </button>
         </div>
       </div>
 
       {/* Filter & Search Toolbar */}
-      <div className="bg-zinc-900 p-4 rounded-xl border border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div className="bg-zinc-900 p-5 rounded-2xl border border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-5">
         <div className="relative flex-1 w-full">
-          <Search className="w-4 h-4 text-zinc-400 absolute left-3 top-2.5" />
+          <Search className="w-4.5 h-4.5 text-zinc-400 absolute left-4 top-3.5" />
           <input
             type="text"
             placeholder="Filter live backend datasets by name, tag, or description..."
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
-            className="w-full bg-zinc-950 border border-zinc-800 rounded-lg pl-9 pr-4 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-zinc-500"
+            className="w-full bg-zinc-950 border border-zinc-800 rounded-xl pl-11 pr-4 py-3 text-sm text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-zinc-500"
           />
         </div>
 
         <div className="flex items-center space-x-3 w-full md:w-auto">
           <Filter className="w-4 h-4 text-zinc-400" />
-          <span className="text-xs text-zinc-400 font-semibold">Domain:</span>
-          <div className="flex space-x-1 overflow-x-auto">
+          <span className="text-sm text-zinc-300 font-bold">Domain:</span>
+          <div className="flex space-x-1.5 overflow-x-auto">
             {domains.map(d => (
               <button
                 key={d}
                 onClick={() => setSelectedDomain(d)}
-                className={`px-3 py-1 rounded-lg text-xs font-medium transition-all whitespace-nowrap ${
-                  selectedDomain === d ? 'bg-white text-black font-bold' : 'bg-zinc-950 text-zinc-400 hover:bg-zinc-800'
+                className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all whitespace-nowrap ${
+                  selectedDomain === d ? 'bg-white text-black font-extrabold' : 'bg-zinc-950 text-zinc-400 hover:bg-zinc-800'
                 }`}
               >
                 {d}
@@ -133,72 +133,72 @@ export const CatalogPage: React.FC = () => {
       </div>
 
       {/* Datasets Table */}
-      <div className="bg-zinc-900 rounded-xl border border-zinc-800 overflow-hidden">
+      <div className="bg-zinc-900 rounded-2xl border border-zinc-800 overflow-hidden">
         {isLoading ? (
-          <div className="p-12 text-center text-xs text-zinc-400 flex items-center justify-center space-x-2">
-            <RefreshCw className="w-4 h-4 animate-spin text-white" />
+          <div className="p-16 text-center text-sm text-zinc-300 flex items-center justify-center space-x-3">
+            <RefreshCw className="w-5 h-5 animate-spin text-white" />
             <span>Fetching live database catalog records from FastAPI backend...</span>
           </div>
         ) : (
           <table className="w-full text-left border-collapse">
             <thead>
-              <tr className="border-b border-zinc-800 bg-zinc-950 text-[10px] font-bold text-zinc-400 uppercase tracking-wider">
-                <th className="p-4">Dataset Name & Domain</th>
-                <th className="p-4">Data Source</th>
-                <th className="p-4">Row Count & Size</th>
-                <th className="p-4">Quality Score</th>
-                <th className="p-4">Sensitivity / Risk</th>
-                <th className="p-4 text-right">Actions</th>
+              <tr className="border-b border-zinc-800 bg-zinc-950 text-xs font-extrabold text-zinc-400 uppercase tracking-wider">
+                <th className="p-5">Dataset Name & Domain</th>
+                <th className="p-5">Data Source</th>
+                <th className="p-5">Row Count & Size</th>
+                <th className="p-5">Quality Score</th>
+                <th className="p-5">Sensitivity / Risk</th>
+                <th className="p-5 text-right">Actions</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-zinc-800 text-xs">
+            <tbody className="divide-y divide-zinc-800 text-sm">
               {filteredDatasets.map(ds => (
                 <tr key={ds.id} className="hover:bg-zinc-800/40 transition-colors">
-                  <td className="p-4">
-                    <div className="font-bold text-white flex items-center space-x-2">
+                  <td className="p-5">
+                    <div className="font-bold text-white text-base flex items-center space-x-2">
                       <span>{ds.name}</span>
-                      {ds.isCertified && <CheckCircle2 className="w-4 h-4 text-emerald-400" />}
+                      {ds.isCertified && <CheckCircle2 className="w-4.5 h-4.5 text-emerald-400" />}
                     </div>
-                    <div className="text-[11px] text-zinc-400 mt-0.5 line-clamp-1">{ds.description || 'No description provided'}</div>
-                    <div className="flex flex-wrap gap-1 mt-2">
+                    <div className="text-xs text-zinc-400 mt-1 line-clamp-1">{ds.description || 'No description provided'}</div>
+                    <div className="flex flex-wrap gap-1.5 mt-2.5">
                       {(ds.tags || [ds.domain, 'SQLITE_SYNC']).map(t => (
-                        <span key={t} className="px-2 py-0.5 bg-zinc-950 text-zinc-300 text-[10px] font-mono rounded border border-zinc-800">
+                        <span key={t} className="px-2.5 py-1 bg-zinc-950 text-zinc-300 text-xs font-mono rounded-lg border border-zinc-800">
                           {t}
                         </span>
                       ))}
                     </div>
                   </td>
-                  <td className="p-4">
-                    <span className="px-2.5 py-1 rounded bg-zinc-950 text-zinc-200 border border-zinc-800 font-mono text-[11px]">
+                  <td className="p-5">
+                    <span className="px-3 py-1.5 rounded-lg bg-zinc-950 text-zinc-200 border border-zinc-800 font-mono text-xs font-semibold">
                       {ds.dataSource}
                     </span>
-                    <div className="text-[10px] text-zinc-500 mt-1 font-semibold">{ds.environment}</div>
+                    <div className="text-xs text-zinc-400 mt-1.5 font-bold">{ds.environment}</div>
                   </td>
-                  <td className="p-4 font-mono text-zinc-300">
-                    <div className="font-semibold">{(ds.rowCount / 1e6).toFixed(2)}M rows</div>
-                    <div className="text-[10px] text-zinc-500 mt-0.5">{(ds.sizeBytes / (1024 * 1024 * 1024)).toFixed(2)} GB</div>
+                  <td className="p-5 font-mono text-zinc-200 text-xs">
+                    <div className="font-bold text-sm">{(ds.rowCount / 1e6).toFixed(2)}M rows</div>
+                    <div className="text-xs text-zinc-400 mt-0.5">{(ds.sizeBytes / (1024 * 1024 * 1024)).toFixed(2)} GB</div>
                   </td>
-                  <td className="p-4 font-mono font-bold">
-                    <span className={`text-xs ${ds.qualityScore > 90 ? 'text-emerald-400' : 'text-amber-400'}`}>
+                  <td className="p-5 font-mono font-bold">
+                    <span className={`text-sm ${ds.qualityScore > 90 ? 'text-emerald-400' : 'text-amber-400'}`}>
                       {ds.qualityScore}%
                     </span>
                   </td>
-                  <td className="p-4">
-                    <div className="space-y-1">
-                      <span className={`inline-block px-2 py-0.5 text-[10px] font-bold rounded ${
-                        ds.sensitivityLevel === 'RESTRICTED' ? 'bg-rose-950/80 text-rose-300 border border-rose-800' : 'bg-zinc-950 text-zinc-400 border border-zinc-800'
+                  <td className="p-5">
+                    <div className="space-y-1.5">
+                      <span className={`inline-block px-2.5 py-1 text-xs font-bold rounded-lg ${
+                        ds.sensitivityLevel === 'RESTRICTED' ? 'bg-rose-950/80 text-rose-300 border border-rose-800' : 'bg-zinc-950 text-zinc-300 border border-zinc-800'
                       }`}>
                         {ds.sensitivityLevel}
                       </span>
-                      <div className="text-[10px] text-zinc-500 font-semibold">Risk: {ds.riskLevel}</div>
+                      <div className="text-xs text-zinc-400 font-bold">Risk: {ds.riskLevel}</div>
                     </div>
                   </td>
-                  <td className="p-4 text-right">
+                  <td className="p-5 text-right">
                     <button
                       onClick={() => setSelectedDataset(ds)}
-                      className="px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 text-white rounded-lg text-xs font-bold transition-colors inline-flex items-center space-x-1.5 border border-zinc-700"
+                      className="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 text-white rounded-xl text-xs font-bold transition-colors inline-flex items-center space-x-2 border border-zinc-700 shadow-sm"
                     >
-                      <Eye className="w-3.5 h-3.5" />
+                      <Eye className="w-4 h-4" />
                       <span>Inspect Schema</span>
                     </button>
                   </td>

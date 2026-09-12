@@ -38,106 +38,106 @@ interface DashboardPageProps {
 
 export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate }) => {
   return (
-    <div className="w-full p-6 space-y-6 animate-in fade-in duration-300">
+    <div className="w-full p-8 space-y-8 animate-in fade-in duration-300">
       
       {/* Top Banner */}
-      <div className="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-        <div className="space-y-2 max-w-3xl">
-          <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-md bg-zinc-800 border border-zinc-700 text-zinc-300 text-xs font-semibold">
-            <Sparkles className="w-3.5 h-3.5 text-white" />
+      <div className="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div className="space-y-3 max-w-3xl">
+          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-lg bg-zinc-800 border border-zinc-700 text-zinc-200 text-xs font-bold">
+            <Sparkles className="w-4 h-4 text-white" />
             <span>Local AI & Rule Engine Active</span>
           </div>
-          <h1 className="text-xl md:text-2xl font-bold text-white tracking-tight">
+          <h1 className="text-2xl md:text-3xl font-bold text-white tracking-tight">
             DataTrustOS Enterprise Governance Dashboard
           </h1>
-          <p className="text-xs md:text-sm text-zinc-400 leading-relaxed">
+          <p className="text-sm md:text-base text-zinc-300 leading-relaxed">
             Continuous metadata discovery, PII classification, data quality profiling, and automated policy enforcement across enterprise data assets.
           </p>
         </div>
 
-        <div className="flex items-center space-x-3 flex-shrink-0">
+        <div className="flex items-center space-x-3.5 flex-shrink-0">
           <button
             onClick={() => onNavigate('catalog')}
-            className="px-4 py-2 bg-white hover:bg-zinc-200 text-black text-xs font-bold rounded-lg transition-all flex items-center space-x-2"
+            className="px-5 py-2.5 bg-white hover:bg-zinc-200 text-black text-sm font-extrabold rounded-xl transition-all flex items-center space-x-2.5 shadow-lg"
           >
-            <Search className="w-3.5 h-3.5" />
+            <Search className="w-4 h-4" />
             <span>Explore Catalog</span>
           </button>
           <button
             onClick={() => onNavigate('risk')}
-            className="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 text-white border border-zinc-700 text-xs font-bold rounded-lg transition-all flex items-center space-x-2"
+            className="px-5 py-2.5 bg-zinc-800 hover:bg-zinc-700 text-white border border-zinc-700 text-sm font-bold rounded-xl transition-all flex items-center space-x-2.5 shadow-sm"
           >
-            <ShieldAlert className="w-3.5 h-3.5 text-rose-400" />
+            <ShieldAlert className="w-4 h-4 text-rose-400" />
             <span>Risk Center</span>
           </button>
         </div>
       </div>
 
       {/* KPI Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
         
-        <div className="bg-zinc-900/90 p-5 rounded-xl border border-zinc-800 hover:border-zinc-700 transition-all">
+        <div className="bg-zinc-900/90 p-6 rounded-2xl border border-zinc-800 hover:border-zinc-700 transition-all space-y-2">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-medium text-zinc-400">Total Registered Datasets</span>
-            <div className="p-2 bg-zinc-800 rounded-lg text-white">
-              <Database className="w-4 h-4" />
+            <span className="text-sm font-semibold text-zinc-300">Total Registered Datasets</span>
+            <div className="p-2.5 bg-zinc-800 rounded-xl text-white">
+              <Database className="w-5 h-5" />
             </div>
           </div>
-          <div className="mt-3 flex items-baseline justify-between">
-            <div className="text-2xl font-bold text-white">4</div>
-            <div className="flex items-center text-xs text-zinc-300 font-semibold">
-              <ArrowUpRight className="w-3.5 h-3.5 mr-0.5" /> +12.5%
+          <div className="mt-4 flex items-baseline justify-between">
+            <div className="text-3xl font-bold text-white">4</div>
+            <div className="flex items-center text-sm text-zinc-300 font-bold">
+              <ArrowUpRight className="w-4 h-4 mr-0.5" /> +12.5%
             </div>
           </div>
-          <div className="mt-1.5 text-xs text-zinc-500">350.1M Records Profiled</div>
+          <div className="text-xs text-zinc-400">350.1M Records Profiled</div>
         </div>
 
-        <div className="bg-zinc-900/90 p-5 rounded-xl border border-zinc-800 hover:border-zinc-700 transition-all">
+        <div className="bg-zinc-900/90 p-6 rounded-2xl border border-zinc-800 hover:border-zinc-700 transition-all space-y-2">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-medium text-zinc-400">Average Quality Score</span>
-            <div className="p-2 bg-zinc-800 rounded-lg text-white">
-              <ShieldCheck className="w-4 h-4 text-emerald-400" />
+            <span className="text-sm font-semibold text-zinc-300">Average Quality Score</span>
+            <div className="p-2.5 bg-zinc-800 rounded-xl text-white">
+              <ShieldCheck className="w-5 h-5 text-emerald-400" />
             </div>
           </div>
-          <div className="mt-3 flex items-baseline justify-between">
-            <div className="text-2xl font-bold text-white">92.8%</div>
-            <div className="flex items-center text-xs text-emerald-400 font-semibold">
-              <ArrowUpRight className="w-3.5 h-3.5 mr-0.5" /> +1.4%
+          <div className="mt-4 flex items-baseline justify-between">
+            <div className="text-3xl font-bold text-white">92.8%</div>
+            <div className="flex items-center text-sm text-emerald-400 font-bold">
+              <ArrowUpRight className="w-4 h-4 mr-0.5" /> +1.4%
             </div>
           </div>
-          <div className="mt-1.5 text-xs text-zinc-500">3 Active Rule Assertions</div>
+          <div className="text-xs text-zinc-400">3 Active Rule Assertions</div>
         </div>
 
-        <div className="bg-zinc-900/90 p-5 rounded-xl border border-zinc-800 hover:border-zinc-700 transition-all">
+        <div className="bg-zinc-900/90 p-6 rounded-2xl border border-zinc-800 hover:border-zinc-700 transition-all space-y-2">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-medium text-zinc-400">Critical PII Fields</span>
-            <div className="p-2 bg-zinc-800 rounded-lg text-white">
-              <ShieldAlert className="w-4 h-4 text-rose-400" />
+            <span className="text-sm font-semibold text-zinc-300">Critical PII Fields</span>
+            <div className="p-2.5 bg-zinc-800 rounded-xl text-white">
+              <ShieldAlert className="w-5 h-5 text-rose-400" />
             </div>
           </div>
-          <div className="mt-3 flex items-baseline justify-between">
-            <div className="text-2xl font-bold text-rose-400">3</div>
-            <div className="flex items-center text-xs text-rose-400 font-semibold">
+          <div className="mt-4 flex items-baseline justify-between">
+            <div className="text-3xl font-bold text-rose-400">3</div>
+            <div className="flex items-center text-xs text-rose-300 font-bold bg-rose-950/80 px-2 py-0.5 rounded border border-rose-800">
               <span>High Sensitivity</span>
             </div>
           </div>
-          <div className="mt-1.5 text-xs text-zinc-500">SSN, Email, Financial Telemetry</div>
+          <div className="text-xs text-zinc-400">SSN, Email, Financial Telemetry</div>
         </div>
 
-        <div className="bg-zinc-900/90 p-5 rounded-xl border border-zinc-800 hover:border-zinc-700 transition-all">
+        <div className="bg-zinc-900/90 p-6 rounded-2xl border border-zinc-800 hover:border-zinc-700 transition-all space-y-2">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-medium text-zinc-400">Lineage Nodes Mapped</span>
-            <div className="p-2 bg-zinc-800 rounded-lg text-white">
-              <GitFork className="w-4 h-4" />
+            <span className="text-sm font-semibold text-zinc-300">Lineage Nodes Mapped</span>
+            <div className="p-2.5 bg-zinc-800 rounded-xl text-white">
+              <GitFork className="w-5 h-5" />
             </div>
           </div>
-          <div className="mt-3 flex items-baseline justify-between">
-            <div className="text-2xl font-bold text-white">6</div>
-            <div className="flex items-center text-xs text-zinc-400 font-semibold">
+          <div className="mt-4 flex items-baseline justify-between">
+            <div className="text-3xl font-bold text-white">6</div>
+            <div className="flex items-center text-xs text-zinc-300 font-semibold">
               <span>Full Graph</span>
             </div>
           </div>
-          <div className="mt-1.5 text-xs text-zinc-500">5 Lineage Dependency Edges</div>
+          <div className="text-xs text-zinc-400">5 Lineage Dependency Edges</div>
         </div>
 
       </div>
@@ -149,16 +149,16 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate }) => {
         <div className="lg:col-span-2 bg-zinc-900 p-6 rounded-2xl border border-zinc-800 space-y-4">
           <div className="flex items-center justify-between">
             <div>
-              <h3 className="text-sm font-bold text-white flex items-center space-x-2">
-                <Activity className="w-4 h-4 text-zinc-400" />
+              <h3 className="text-base font-bold text-white flex items-center space-x-2.5">
+                <Activity className="w-5 h-5 text-zinc-400" />
                 <span>Enterprise Data Quality Trend (7-Day SLA)</span>
               </h3>
-              <p className="text-xs text-zinc-400 mt-0.5">Average accuracy and completeness score across all data assets</p>
+              <p className="text-xs text-zinc-400 mt-1">Average accuracy and completeness score across all data assets</p>
             </div>
-            <span className="px-2.5 py-1 rounded bg-zinc-800 text-xs font-mono text-zinc-300 border border-zinc-700">Real-time SLA</span>
+            <span className="px-3 py-1 rounded-lg bg-zinc-800 text-xs font-mono text-zinc-200 border border-zinc-700 font-bold">Real-time SLA</span>
           </div>
 
-          <div className="h-64 w-full">
+          <div className="h-64 w-full pt-2">
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={qualityTrendData}>
                 <defs>
@@ -168,12 +168,12 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate }) => {
                   </linearGradient>
                 </defs>
                 <CartesianGrid strokeDasharray="3 3" stroke="#27272a" />
-                <XAxis dataKey="date" stroke="#71717a" fontSize={11} />
-                <YAxis stroke="#71717a" fontSize={11} domain={[80, 100]} />
+                <XAxis dataKey="date" stroke="#a1a1aa" fontSize={12} />
+                <YAxis stroke="#a1a1aa" fontSize={12} domain={[80, 100]} />
                 <Tooltip
-                  contentStyle={{ backgroundColor: '#09090b', borderColor: '#27272a', borderRadius: '8px', color: '#f4f4f5' }}
+                  contentStyle={{ backgroundColor: '#09090b', borderColor: '#27272a', borderRadius: '8px', color: '#f4f4f5', fontSize: '12px' }}
                 />
-                <Area type="monotone" dataKey="avgScore" stroke="#ffffff" strokeWidth={2} fillOpacity={1} fill="url(#colorQuality)" />
+                <Area type="monotone" dataKey="avgScore" stroke="#ffffff" strokeWidth={2.5} fillOpacity={1} fill="url(#colorQuality)" />
               </AreaChart>
             </ResponsiveContainer>
           </div>
@@ -182,11 +182,11 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate }) => {
         {/* Risk Distribution Donut */}
         <div className="bg-zinc-900 p-6 rounded-2xl border border-zinc-800 space-y-4 flex flex-col justify-between">
           <div>
-            <h3 className="text-sm font-bold text-white flex items-center space-x-2">
-              <ShieldAlert className="w-4 h-4 text-rose-400" />
+            <h3 className="text-base font-bold text-white flex items-center space-x-2.5">
+              <ShieldAlert className="w-5 h-5 text-rose-400" />
               <span>Dataset Risk Classification</span>
             </h3>
-            <p className="text-xs text-zinc-400 mt-0.5">Risk profiles based on sensitivity and quality</p>
+            <p className="text-xs text-zinc-400 mt-1">Risk profiles based on sensitivity and quality</p>
           </div>
 
           <div className="h-44 w-full flex items-center justify-center">
@@ -205,16 +205,16 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate }) => {
                     <Cell key={`cell-${index}`} fill={entry.color} />
                   ))}
                 </Pie>
-                <Tooltip contentStyle={{ backgroundColor: '#09090b', borderColor: '#27272a', borderRadius: '8px' }} />
+                <Tooltip contentStyle={{ backgroundColor: '#09090b', borderColor: '#27272a', borderRadius: '8px', fontSize: '12px' }} />
               </PieChart>
             </ResponsiveContainer>
           </div>
 
-          <div className="grid grid-cols-2 gap-2 text-xs">
+          <div className="grid grid-cols-2 gap-2.5 text-xs">
             {riskDistributionData.map(r => (
               <div key={r.name} className="flex items-center space-x-2">
                 <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: r.color }} />
-                <span className="text-zinc-300 text-xs font-medium">{r.name} ({r.value}%)</span>
+                <span className="text-zinc-200 text-xs font-semibold">{r.name} ({r.value}%)</span>
               </div>
             ))}
           </div>
@@ -228,28 +228,28 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate }) => {
         {/* Top Datasets Preview */}
         <div className="bg-zinc-900 p-6 rounded-2xl border border-zinc-800 space-y-4">
           <div className="flex items-center justify-between">
-            <h3 className="text-sm font-bold text-white flex items-center space-x-2">
-              <Database className="w-4 h-4 text-zinc-400" />
+            <h3 className="text-base font-bold text-white flex items-center space-x-2.5">
+              <Database className="w-5 h-5 text-zinc-400" />
               <span>Registered Enterprise Datasets</span>
             </h3>
-            <button onClick={() => onNavigate('catalog')} className="text-xs text-zinc-300 hover:text-white underline font-medium">View All →</button>
+            <button onClick={() => onNavigate('catalog')} className="text-xs text-zinc-200 hover:text-white underline font-bold">View All →</button>
           </div>
 
           <div className="divide-y divide-zinc-800">
             {MOCK_DATASETS.slice(0, 3).map(ds => (
-              <div key={ds.id} className="py-3 flex items-center justify-between hover:bg-zinc-800/50 px-2 rounded-lg transition-colors">
+              <div key={ds.id} className="py-3.5 flex items-center justify-between hover:bg-zinc-800/50 px-3 rounded-xl transition-colors">
                 <div>
-                  <div className="text-xs font-bold text-white flex items-center space-x-2">
+                  <div className="text-sm font-bold text-white flex items-center space-x-2">
                     <span>{ds.name}</span>
-                    {ds.isCertified && <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />}
+                    {ds.isCertified && <CheckCircle2 className="w-4 h-4 text-emerald-400" />}
                   </div>
-                  <div className="text-[11px] text-zinc-400 mt-0.5">{ds.dataSource} • {ds.domain} • {(ds.rowCount / 1e6).toFixed(1)}M rows</div>
+                  <div className="text-xs text-zinc-400 mt-1">{ds.dataSource} • {ds.domain} • {(ds.rowCount / 1e6).toFixed(1)}M rows</div>
                 </div>
 
                 <div className="text-right">
-                  <div className="text-xs font-mono font-bold text-emerald-400">{ds.qualityScore}% Quality</div>
-                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded mt-1 inline-block ${
-                    ds.riskLevel === 'CRITICAL' ? 'bg-rose-950/80 text-rose-300 border border-rose-800' : 'bg-zinc-800 text-zinc-300'
+                  <div className="text-sm font-mono font-bold text-emerald-400">{ds.qualityScore}% Quality</div>
+                  <span className={`text-xs font-bold px-2.5 py-0.5 rounded-md mt-1 inline-block ${
+                    ds.riskLevel === 'CRITICAL' ? 'bg-rose-950/80 text-rose-300 border border-rose-800' : 'bg-zinc-800 text-zinc-200'
                   }`}>
                     {ds.riskLevel} RISK
                   </span>
@@ -262,21 +262,21 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({ onNavigate }) => {
         {/* Audit Log Preview */}
         <div className="bg-zinc-900 p-6 rounded-2xl border border-zinc-800 space-y-4">
           <div className="flex items-center justify-between">
-            <h3 className="text-sm font-bold text-white flex items-center space-x-2">
-              <Users className="w-4 h-4 text-zinc-400" />
+            <h3 className="text-base font-bold text-white flex items-center space-x-2.5">
+              <Users className="w-5 h-5 text-zinc-400" />
               <span>Recent Governance Audit Stream</span>
             </h3>
-            <button onClick={() => onNavigate('compliance')} className="text-xs text-zinc-300 hover:text-white underline font-medium">Full Audit Trail →</button>
+            <button onClick={() => onNavigate('compliance')} className="text-xs text-zinc-200 hover:text-white underline font-bold">Full Audit Trail →</button>
           </div>
 
           <div className="divide-y divide-zinc-800">
             {MOCK_AUDIT_LOGS.map(log => (
-              <div key={log.id} className="py-3 flex items-start justify-between px-2">
+              <div key={log.id} className="py-3.5 flex items-start justify-between px-3">
                 <div>
-                  <div className="text-xs font-bold text-zinc-200">{log.action}</div>
-                  <div className="text-[11px] text-zinc-400 mt-0.5">{log.actorName} ({log.actorEmail}) • Target: {log.targetResource}</div>
+                  <div className="text-sm font-bold text-zinc-100">{log.action}</div>
+                  <div className="text-xs text-zinc-400 mt-1">{log.actorName} ({log.actorEmail}) • Target: {log.targetResource}</div>
                 </div>
-                <div className="text-[10px] font-mono text-zinc-500">
+                <div className="text-xs font-mono text-zinc-400 font-semibold">
                   {new Date(log.timestamp).toLocaleTimeString()}
                 </div>
               </div>

@@ -78,13 +78,13 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, onNavigate }) => 
       {/* Brand Header */}
       <div className="h-20 px-6 border-b border-zinc-800/90 flex items-center space-x-4 flex-shrink-0">
         <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-black flex-shrink-0 shadow-lg">
-          <Database className="w-5.5 h-5.5 text-black" />
+          <Database className="w-6 h-6 text-black" />
         </div>
         <div>
-          <div className="text-xl font-black tracking-tight text-white leading-none">
+          <div className="text-2xl font-black tracking-tight text-white leading-none">
             DataTrust<span className="text-zinc-400">OS</span>
           </div>
-          <div className="text-xs text-zinc-500 font-mono mt-1">v1.0 • Enterprise Platform</div>
+          <div className="text-xs text-zinc-400 font-mono mt-1">v1.0 • Enterprise Platform</div>
         </div>
       </div>
 
@@ -92,7 +92,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, onNavigate }) => 
       <div className="flex-1 overflow-y-auto px-4 py-6 space-y-7">
         {navGroups.map((group, idx) => (
           <div key={idx} className="space-y-2">
-            <div className="px-3 text-xs font-bold text-zinc-500 uppercase tracking-wider mb-2">
+            <div className="px-3 text-xs font-extrabold text-zinc-500 uppercase tracking-wider mb-2">
               {group.title}
             </div>
             {group.items.map(item => {
@@ -102,17 +102,17 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, onNavigate }) => 
                 <button
                   key={item.id}
                   onClick={() => onNavigate(item.id)}
-                  className={`w-full flex items-center justify-between px-4 py-3 rounded-xl text-sm transition-all group ${
+                  className={`w-full flex items-center justify-between px-4 py-3 rounded-xl transition-all group ${
                     isActive
                       ? 'bg-white text-black font-extrabold shadow-md'
-                      : 'text-zinc-400 hover:text-white hover:bg-zinc-900/90 font-semibold'
+                      : 'text-zinc-300 hover:text-white hover:bg-zinc-900/90 font-semibold'
                   }`}
                 >
                   <div className="flex items-center space-x-3.5 min-w-0 pr-2">
                     <Icon className={`w-5 h-5 flex-shrink-0 transition-colors ${
-                      isActive ? 'text-black' : 'text-zinc-500 group-hover:text-zinc-200'
+                      isActive ? 'text-black' : 'text-zinc-400 group-hover:text-white'
                     }`} />
-                    <span className="truncate text-sm">{item.label}</span>
+                    <span className="truncate text-sm font-semibold">{item.label}</span>
                   </div>
                   {item.badge && (
                     <span className={`px-2.5 py-0.5 text-xs font-extrabold tracking-wide rounded-md flex-shrink-0 ${
@@ -135,15 +135,15 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, onNavigate }) => 
       </div>
 
       {/* System Status Footer */}
-      <div className="p-4 border-t border-zinc-800/90 bg-zinc-950 text-xs flex-shrink-0">
-        <div className="flex items-center justify-between text-zinc-400 text-xs">
-          <div className="flex items-center space-x-2">
-            <span className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
-            <span className="font-bold text-zinc-200">Local Engine Active</span>
+      <div className="p-4 border-t border-zinc-800/90 bg-zinc-950 flex-shrink-0">
+        <div className="flex items-center justify-between text-zinc-300">
+          <div className="flex items-center space-x-2.5">
+            <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
+            <span className="font-bold text-sm text-zinc-100">Local Engine Active</span>
           </div>
-          <ChevronRight className="w-4 h-4 text-zinc-500" />
+          <ChevronRight className="w-4 h-4 text-zinc-400" />
         </div>
-        <div className="mt-1.5 text-xs text-zinc-500">100% Offline • Zero External Keys</div>
+        <div className="mt-1 text-xs text-zinc-400">100% Offline • Zero External Keys</div>
       </div>
 
     </aside>
