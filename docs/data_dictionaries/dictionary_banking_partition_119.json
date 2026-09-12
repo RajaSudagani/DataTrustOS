@@ -1,0 +1,4567 @@
+{
+  "partition_id": "dict_part_119",
+  "domain": "BANKING",
+  "target_records_count": 6485000,
+  "tables_spec": [
+    {
+      "table_name": "tbl_banking_119_01",
+      "estimated_rows": 150000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_02",
+      "estimated_rows": 200000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_03",
+      "estimated_rows": 250000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_04",
+      "estimated_rows": 300000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_05",
+      "estimated_rows": 350000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_06",
+      "estimated_rows": 400000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_07",
+      "estimated_rows": 450000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_08",
+      "estimated_rows": 500000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_09",
+      "estimated_rows": 550000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_10",
+      "estimated_rows": 600000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_11",
+      "estimated_rows": 650000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_12",
+      "estimated_rows": 700000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_13",
+      "estimated_rows": 750000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_14",
+      "estimated_rows": 800000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_15",
+      "estimated_rows": 850000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_16",
+      "estimated_rows": 900000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_17",
+      "estimated_rows": 950000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_18",
+      "estimated_rows": 1000000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_banking_119_19",
+      "estimated_rows": 1050000,
+      "columns_metadata": [
+        {
+          "name": "col_01_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_banking_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    }
+  ]
+}
