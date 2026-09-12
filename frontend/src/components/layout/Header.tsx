@@ -32,8 +32,14 @@ export const Header: React.FC<HeaderProps> = ({ onOpenCommandPalette, onNavigate
       </div>
 
       {/* Right Action Icons & Controls */}
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-3">
         
+        {/* Backend API Connection Status Badge */}
+        <div className="hidden sm:flex items-center space-x-1.5 px-2.5 py-1 bg-zinc-950 border border-zinc-800 rounded-lg font-mono text-[11px] text-zinc-300">
+          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+          <span>API: FastAPI :8000</span>
+        </div>
+
         {/* Tenant Selector Dropdown */}
         <div className="relative group">
           <button className="flex items-center space-x-2 px-3 py-1.5 bg-zinc-900 border border-zinc-800 rounded-lg text-xs font-medium text-zinc-200 hover:bg-zinc-800 transition-colors">

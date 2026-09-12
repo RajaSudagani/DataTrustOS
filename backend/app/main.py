@@ -4,8 +4,11 @@ from .config import settings
 from .database import engine, Base
 from .api import catalog, quality, intelligence
 
-# Initialize database tables
+from .seed import seed_db
+
+# Initialize database tables & seed initial data
 Base.metadata.create_all(bind=engine)
+seed_db()
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
