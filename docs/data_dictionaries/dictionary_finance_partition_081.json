@@ -1,0 +1,4567 @@
+{
+  "partition_id": "dict_part_081",
+  "domain": "FINANCE",
+  "target_records_count": 6485000,
+  "tables_spec": [
+    {
+      "table_name": "tbl_finance_081_01",
+      "estimated_rows": 150000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_02",
+      "estimated_rows": 200000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_03",
+      "estimated_rows": 250000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_04",
+      "estimated_rows": 300000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_05",
+      "estimated_rows": 350000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_06",
+      "estimated_rows": 400000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_07",
+      "estimated_rows": 450000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_08",
+      "estimated_rows": 500000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_09",
+      "estimated_rows": 550000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_10",
+      "estimated_rows": 600000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_11",
+      "estimated_rows": 650000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_12",
+      "estimated_rows": 700000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_13",
+      "estimated_rows": 750000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_14",
+      "estimated_rows": 800000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_15",
+      "estimated_rows": 850000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_16",
+      "estimated_rows": 900000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_17",
+      "estimated_rows": 950000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_18",
+      "estimated_rows": 1000000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_finance_081_19",
+      "estimated_rows": 1050000,
+      "columns_metadata": [
+        {
+          "name": "col_01_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_finance_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    }
+  ]
+}
