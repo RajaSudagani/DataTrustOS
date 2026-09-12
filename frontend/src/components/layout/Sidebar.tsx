@@ -73,26 +73,26 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, onNavigate }) => 
   ];
 
   return (
-    <aside className="w-68 md:w-72 bg-black border-r border-zinc-800 flex flex-col h-screen sticky top-0 select-none flex-shrink-0">
+    <aside className="w-80 bg-black border-r border-zinc-800 flex flex-col h-screen sticky top-0 select-none flex-shrink-0">
       
       {/* Brand Header */}
-      <div className="h-18 px-5 border-b border-zinc-800/90 flex items-center space-x-3.5 flex-shrink-0">
-        <div className="w-9 h-9 rounded-xl bg-white flex items-center justify-center text-black flex-shrink-0 shadow">
-          <Database className="w-5 h-5 text-black" />
+      <div className="h-20 px-6 border-b border-zinc-800/90 flex items-center space-x-4 flex-shrink-0">
+        <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center text-black flex-shrink-0 shadow-lg">
+          <Database className="w-5.5 h-5.5 text-black" />
         </div>
         <div>
-          <div className="text-lg font-black tracking-tight text-white leading-none">
+          <div className="text-xl font-black tracking-tight text-white leading-none">
             DataTrust<span className="text-zinc-400">OS</span>
           </div>
-          <div className="text-[11px] text-zinc-500 font-mono mt-1">v1.0 • Enterprise Platform</div>
+          <div className="text-xs text-zinc-500 font-mono mt-1">v1.0 • Enterprise Platform</div>
         </div>
       </div>
 
       {/* Navigation Groups */}
-      <div className="flex-1 overflow-y-auto px-3.5 py-5 space-y-6">
+      <div className="flex-1 overflow-y-auto px-4 py-6 space-y-7">
         {navGroups.map((group, idx) => (
-          <div key={idx} className="space-y-1.5">
-            <div className="px-3 text-[11px] font-bold text-zinc-500 uppercase tracking-wider mb-2">
+          <div key={idx} className="space-y-2">
+            <div className="px-3 text-xs font-bold text-zinc-500 uppercase tracking-wider mb-2">
               {group.title}
             </div>
             {group.items.map(item => {
@@ -102,24 +102,24 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, onNavigate }) => 
                 <button
                   key={item.id}
                   onClick={() => onNavigate(item.id)}
-                  className={`w-full flex items-center justify-between px-3.5 py-2.5 rounded-xl text-sm transition-all group ${
+                  className={`w-full flex items-center justify-between px-4 py-3 rounded-xl text-sm transition-all group ${
                     isActive
-                      ? 'bg-white text-black font-bold shadow-md'
-                      : 'text-zinc-400 hover:text-white hover:bg-zinc-900/90 font-medium'
+                      ? 'bg-white text-black font-extrabold shadow-md'
+                      : 'text-zinc-400 hover:text-white hover:bg-zinc-900/90 font-semibold'
                   }`}
                 >
-                  <div className="flex items-center space-x-3 min-w-0 pr-2">
-                    <Icon className={`w-4.5 h-4.5 flex-shrink-0 transition-colors ${
+                  <div className="flex items-center space-x-3.5 min-w-0 pr-2">
+                    <Icon className={`w-5 h-5 flex-shrink-0 transition-colors ${
                       isActive ? 'text-black' : 'text-zinc-500 group-hover:text-zinc-200'
                     }`} />
-                    <span className="truncate leading-tight">{item.label}</span>
+                    <span className="truncate text-sm">{item.label}</span>
                   </div>
                   {item.badge && (
-                    <span className={`px-2 py-0.5 text-[10px] font-extrabold tracking-wide rounded-md flex-shrink-0 ${
+                    <span className={`px-2.5 py-0.5 text-xs font-extrabold tracking-wide rounded-md flex-shrink-0 ${
                       isActive
                         ? 'bg-black text-white'
                         : item.badge === 'CRITICAL'
-                        ? 'bg-rose-950/90 text-rose-300 border border-rose-800/80'
+                        ? 'bg-rose-950/90 text-rose-300 border border-rose-800'
                         : item.badge === 'ML'
                         ? 'bg-zinc-800 text-zinc-200 border border-zinc-700'
                         : 'bg-zinc-900 text-zinc-400 border border-zinc-800'
@@ -143,7 +143,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPage, onNavigate }) => 
           </div>
           <ChevronRight className="w-4 h-4 text-zinc-500" />
         </div>
-        <div className="mt-1.5 text-[11px] text-zinc-500">100% Offline • Zero External Keys</div>
+        <div className="mt-1.5 text-xs text-zinc-500">100% Offline • Zero External Keys</div>
       </div>
 
     </aside>

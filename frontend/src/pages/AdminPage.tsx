@@ -6,67 +6,67 @@ export const AdminPage: React.FC = () => {
   const { activeTenant, tenants } = useTenant();
 
   return (
-    <div className="p-8 space-y-8 animate-in fade-in duration-300">
+    <div className="w-full p-6 space-y-6 animate-in fade-in duration-300">
       
       <div>
-        <h1 className="text-xl font-extrabold text-white tracking-tight flex items-center space-x-2">
-          <Settings className="w-6 h-6 text-brand-400" />
+        <h1 className="text-xl font-bold text-white tracking-tight flex items-center space-x-2.5">
+          <Settings className="w-5 h-5 text-white" />
           <span>Platform Control Center & Multi-Tenant Administration</span>
         </h1>
-        <p className="text-xs text-slate-400 mt-1">
+        <p className="text-xs text-zinc-400 mt-1">
           Manage organization tenants, configure fine-grained Role-Based Access Control (RBAC), monitor storage capacity, and inspect system health.
         </p>
       </div>
 
       {/* System Health Status */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
-        <div className="glass-card p-5 rounded-xl border border-slate-800">
-          <div className="flex items-center justify-between text-slate-400 text-xs">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+          <div className="flex items-center justify-between text-zinc-400 text-xs">
             <span>Local Database Engine</span>
             <HardDrive className="w-4 h-4 text-emerald-400" />
           </div>
-          <div className="text-lg font-extrabold text-emerald-400 mt-2">PostgreSQL 16.4</div>
-          <div className="text-[11px] text-slate-500 mt-1">12.4 GB / 500 GB Storage</div>
+          <div className="text-lg font-bold text-white mt-2">PostgreSQL 16.4</div>
+          <div className="text-[11px] text-zinc-500 mt-1">12.4 GB / 500 GB Storage</div>
         </div>
 
-        <div className="glass-card p-5 rounded-xl border border-slate-800">
-          <div className="flex items-center justify-between text-slate-400 text-xs">
+        <div className="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+          <div className="flex items-center justify-between text-zinc-400 text-xs">
             <span>Local Task Processor</span>
-            <Cpu className="w-4 h-4 text-brand-400" />
+            <Cpu className="w-4 h-4 text-white" />
           </div>
-          <div className="text-lg font-extrabold text-brand-400 mt-2">Celery / Redis</div>
-          <div className="text-[11px] text-slate-500 mt-1">4 Worker Threads Active</div>
+          <div className="text-lg font-bold text-white mt-2">Celery / Redis</div>
+          <div className="text-[11px] text-zinc-500 mt-1">4 Worker Threads Active</div>
         </div>
 
-        <div className="glass-card p-5 rounded-xl border border-slate-800">
-          <div className="flex items-center justify-between text-slate-400 text-xs">
+        <div className="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+          <div className="flex items-center justify-between text-zinc-400 text-xs">
             <span>Active Tenant Isolation</span>
-            <Building2 className="w-4 h-4 text-indigo-400" />
+            <Building2 className="w-4 h-4 text-white" />
           </div>
-          <div className="text-lg font-extrabold text-slate-100 mt-2">{activeTenant.code}</div>
-          <div className="text-[11px] text-slate-500 mt-1">{activeTenant.plan}</div>
+          <div className="text-lg font-bold text-white mt-2">{activeTenant.code}</div>
+          <div className="text-[11px] text-zinc-500 mt-1">{activeTenant.plan}</div>
         </div>
 
-        <div className="glass-card p-5 rounded-xl border border-slate-800">
-          <div className="flex items-center justify-between text-slate-400 text-xs">
+        <div className="bg-zinc-900 p-5 rounded-xl border border-zinc-800">
+          <div className="flex items-center justify-between text-zinc-400 text-xs">
             <span>Security & RBAC SLA</span>
             <Lock className="w-4 h-4 text-emerald-400" />
           </div>
-          <div className="text-lg font-extrabold text-emerald-400 mt-2">Enforced</div>
-          <div className="text-[11px] text-slate-500 mt-1">Zero Security Breaches</div>
+          <div className="text-lg font-bold text-emerald-400 mt-2">Enforced</div>
+          <div className="text-[11px] text-zinc-500 mt-1">Zero Security Breaches</div>
         </div>
       </div>
 
       {/* RBAC Matrix */}
-      <div className="glass-panel rounded-xl border border-slate-800 overflow-hidden space-y-4">
-        <div className="p-4 border-b border-slate-800 bg-slate-900/60 font-bold text-sm text-white flex items-center space-x-2">
-          <Shield className="w-4 h-4 text-brand-400" />
+      <div className="bg-zinc-900 rounded-xl border border-zinc-800 overflow-hidden space-y-4">
+        <div className="p-4 border-b border-zinc-800 bg-zinc-950 font-bold text-sm text-white flex items-center space-x-2">
+          <Shield className="w-4 h-4 text-white" />
           <span>Role-Based Access Control (RBAC) Permissions Matrix</span>
         </div>
 
         <table className="w-full text-left text-xs">
           <thead>
-            <tr className="border-b border-slate-800 text-[10px] text-slate-400 bg-slate-950/40 uppercase">
+            <tr className="border-b border-zinc-800 text-[10px] text-zinc-400 bg-zinc-950 uppercase">
               <th className="p-4">Platform Permission Scope</th>
               <th className="p-4">ADMIN</th>
               <th className="p-4">GOVERNANCE_LEAD</th>
@@ -75,25 +75,25 @@ export const AdminPage: React.FC = () => {
               <th className="p-4">ANALYST</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-slate-800 font-mono">
-            <tr className="hover:bg-slate-900/40">
-              <td className="p-4 font-sans font-bold text-slate-200">Register New Datasets</td>
+          <tbody className="divide-y divide-zinc-800 font-mono">
+            <tr className="hover:bg-zinc-800/40">
+              <td className="p-4 font-sans font-bold text-zinc-200">Register New Datasets</td>
               <td className="p-4 text-emerald-400">ALLOW</td>
               <td className="p-4 text-emerald-400">ALLOW</td>
               <td className="p-4 text-emerald-400">ALLOW</td>
               <td className="p-4 text-emerald-400">ALLOW</td>
               <td className="p-4 text-rose-400">DENY</td>
             </tr>
-            <tr className="hover:bg-slate-900/40">
-              <td className="p-4 font-sans font-bold text-slate-200">Approve Dataset Access Requests</td>
+            <tr className="hover:bg-zinc-800/40">
+              <td className="p-4 font-sans font-bold text-zinc-200">Approve Dataset Access Requests</td>
               <td className="p-4 text-emerald-400">ALLOW</td>
               <td className="p-4 text-emerald-400">ALLOW</td>
               <td className="p-4 text-emerald-400">ALLOW</td>
               <td className="p-4 text-rose-400">DENY</td>
               <td className="p-4 text-rose-400">DENY</td>
             </tr>
-            <tr className="hover:bg-slate-900/40">
-              <td className="p-4 font-sans font-bold text-slate-200">Inspect Unmasked Critical PII</td>
+            <tr className="hover:bg-zinc-800/40">
+              <td className="p-4 font-sans font-bold text-zinc-200">Inspect Unmasked Critical PII</td>
               <td className="p-4 text-emerald-400">ALLOW</td>
               <td className="p-4 text-rose-400">DENY</td>
               <td className="p-4 text-rose-400">DENY</td>
