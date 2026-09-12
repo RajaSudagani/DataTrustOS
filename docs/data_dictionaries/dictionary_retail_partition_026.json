@@ -1,0 +1,4567 @@
+{
+  "partition_id": "dict_part_026",
+  "domain": "RETAIL",
+  "target_records_count": 6485000,
+  "tables_spec": [
+    {
+      "table_name": "tbl_retail_026_01",
+      "estimated_rows": 150000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_02",
+      "estimated_rows": 200000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_03",
+      "estimated_rows": 250000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_04",
+      "estimated_rows": 300000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_05",
+      "estimated_rows": 350000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_06",
+      "estimated_rows": 400000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_07",
+      "estimated_rows": 450000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_08",
+      "estimated_rows": 500000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_09",
+      "estimated_rows": 550000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_10",
+      "estimated_rows": 600000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_11",
+      "estimated_rows": 650000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_12",
+      "estimated_rows": 700000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_13",
+      "estimated_rows": 750000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_14",
+      "estimated_rows": 800000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_15",
+      "estimated_rows": 850000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_16",
+      "estimated_rows": 900000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_17",
+      "estimated_rows": 950000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_18",
+      "estimated_rows": 1000000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_retail_026_19",
+      "estimated_rows": 1050000,
+      "columns_metadata": [
+        {
+          "name": "col_01_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_retail_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    }
+  ]
+}

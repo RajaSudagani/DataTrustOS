@@ -1,0 +1,4567 @@
+{
+  "partition_id": "dict_part_067",
+  "domain": "TELECOM",
+  "target_records_count": 6485000,
+  "tables_spec": [
+    {
+      "table_name": "tbl_telecom_067_01",
+      "estimated_rows": 150000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_02",
+      "estimated_rows": 200000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_03",
+      "estimated_rows": 250000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_04",
+      "estimated_rows": 300000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_05",
+      "estimated_rows": 350000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_06",
+      "estimated_rows": 400000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_07",
+      "estimated_rows": 450000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_08",
+      "estimated_rows": 500000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_09",
+      "estimated_rows": 550000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_10",
+      "estimated_rows": 600000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_11",
+      "estimated_rows": 650000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_12",
+      "estimated_rows": 700000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_13",
+      "estimated_rows": 750000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_14",
+      "estimated_rows": 800000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_15",
+      "estimated_rows": 850000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_16",
+      "estimated_rows": 900000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_17",
+      "estimated_rows": 950000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_18",
+      "estimated_rows": 1000000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    },
+    {
+      "table_name": "tbl_telecom_067_19",
+      "estimated_rows": 1050000,
+      "columns_metadata": [
+        {
+          "name": "col_01_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_02_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_03_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_04_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_05_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_06_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_07_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_08_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_09_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_10_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_11_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_12_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_13_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_14_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_15_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_16_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_17_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_18_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_19_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_20_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_21_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_22_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_23_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_24_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_25_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_26_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_27_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_28_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_29_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_30_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_31_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_32_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_33_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_34_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        },
+        {
+          "name": "col_35_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "CRITICAL_PII",
+          "completeness_pct": 95.0
+        },
+        {
+          "name": "col_36_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 96.0
+        },
+        {
+          "name": "col_37_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 97.0
+        },
+        {
+          "name": "col_38_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 98.0
+        },
+        {
+          "name": "col_39_telecom_metric",
+          "data_type": "VARCHAR(255)",
+          "sensitivity": "INTERNAL",
+          "completeness_pct": 99.0
+        }
+      ]
+    }
+  ]
+}
